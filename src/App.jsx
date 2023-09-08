@@ -2,7 +2,7 @@ import {
   Footer,
   CustomerReview,
   Hero,
-  PopularProducts,
+  PopularProduct,
   Services,
   SpecialOffer,
   Subscribe,
@@ -18,11 +18,11 @@ export default function App() {
       <nav>
         <Nav />
       </nav>
-      <section className="xl:padding-1 wide:padding-r padding-b ">
+      <section className="xl:padding-l wide:padding-r padding-b ">
         <Hero />
       </section>
       <section className="padding">
-        <PopularProducts />
+        <PopularProduct />
       </section>
       <section className="padding">
         <SuperQuality />

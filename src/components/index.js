@@ -1,6 +1,6 @@
 import Footer from "./Footer";
 import Hero from "./Hero";
-import PopularProducts from "./PopularProducts";
+import PopularProduct from "./PopularProduct";
 import Services from "./Services";
 import SpecialOffer from "./SpecialOffer";
 import Subscribe from "./Subscribe";
@@ -12,7 +12,7 @@ import Button from "./Button";
 export {
   Footer,
   Hero,
-  PopularProducts,
+  PopularProduct,
   Services,
   SpecialOffer,
   Subscribe,
