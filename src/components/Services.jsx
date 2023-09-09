@@ -4,7 +4,7 @@ import ServiceCard from "./ServiceCard"
 const Services = () => {
   return (
     <section id="services" className="max-container">
-    <div className="flex flex-wrap justify-between items-center">
+    <div className="flex flex-wrap justify-between items-center gap-8">
     {services.map((service, index) => (
       <ServiceCard key={index} service={service} />
     ))}
