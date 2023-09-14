@@ -39,7 +39,7 @@ export default function App() {
       <section className="padding-x sm:py-32 py-16 w-full">
         <Subscribe />
       </section>
-      <section className="padding bg-black pb-8 padding-t text-white">
+      <section className="sm:px-16 px-8  py-12 bg-black pb-8 padding-t text-white">
         <Footer />
       </section>
     </main>
